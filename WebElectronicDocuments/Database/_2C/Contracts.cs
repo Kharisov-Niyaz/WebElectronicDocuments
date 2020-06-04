@@ -1,0 +1,103 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace WebElectronicDocuments.Database._2C
+{
+    public partial class Contracts
+    {
+        public int ContractId { get; set; }
+        public int? CustomerId { get; set; }
+        public string ContractTalk { get; set; }
+        public int? ContractExecutorId { get; set; }
+        public string ContractNumber { get; set; }
+        public DateTime? ContractDate { get; set; }
+        public string ContractWorkType { get; set; }
+        public string ContractNote { get; set; }
+        public double? ContractSumm { get; set; }
+        public string ContractNds { get; set; }
+        public int? ContractPayType { get; set; }
+        public string ContractPayTypeNote { get; set; }
+        public string ContractPayTypeNote2 { get; set; }
+        public int? ContractPayTypeFactDays { get; set; }
+        public int? ContractWorkdone { get; set; }
+        public int? ContractPaid { get; set; }
+        public string ContractWorkNote { get; set; }
+        public string ContractWorkResult { get; set; }
+        public int? ContractClosed { get; set; }
+        public int? ContractClosedMonth { get; set; }
+        public int? ContractClosedYear { get; set; }
+        public short? ContractDocsOrigin { get; set; }
+        public string ContractIspolnit { get; set; }
+        public string ContractCallResults { get; set; }
+        public string ContractTechInfo { get; set; }
+        public DateTime? ContractSupportRemindDate { get; set; }
+        public string ContractChetFactura { get; set; }
+        public DateTime? ContractLastEditDate { get; set; }
+        public byte[] UpsizeTs { get; set; }
+        public int? ContractCalendarPlan { get; set; }
+        public int? ContractWithonchetdoc { get; set; }
+        public int? ContractProtocolRaz { get; set; }
+        public int? ContractProtocolUrelRaz { get; set; }
+        public int? ContractCalcSmeta { get; set; }
+        public int? ContractCalcSmetaRashifr { get; set; }
+        public int? ContractKonechUser { get; set; }
+        public int? ContractYesAct { get; set; }
+        public int? ContractYesScanAct { get; set; }
+        public int? ContractYesScanDog { get; set; }
+        public int? ContractSrokOkazUslug { get; set; }
+        public DateTime? ContractSrokDate1 { get; set; }
+        public DateTime? ContractSrokDate2 { get; set; }
+        public string ContractLicDogCount { get; set; }
+        public string ContractLicDogSrok { get; set; }
+        public string ContractLicDogAvans { get; set; }
+        public string ContractLicDogDo { get; set; }
+        public string ContractNerezDogNerezNalog { get; set; }
+        public string ContractNerezDogProcentNalog { get; set; }
+        public string ContractNerezDogDogCena { get; set; }
+        public string ContractNerezDogNalogZak { get; set; }
+        public string ContractNerezDogVidacha { get; set; }
+        public string ContractActNumber { get; set; }
+        public string ContractScanActNumber { get; set; }
+        public int? ContractControlIspolnitel { get; set; }
+        public string ContractSrokText { get; set; }
+        public int? ContractFutureCustomer { get; set; }
+        public int? ContractSaleCheck { get; set; }
+        public string ContractSaleText { get; set; }
+        public int? ContractTenderWinCheck { get; set; }
+        public int? ContractBranchCheck { get; set; }
+        public int? ContractBranchText { get; set; }
+        public int? ContractAntiSaleCheck { get; set; }
+        public string ContractAntiSaleText { get; set; }
+        public string ContractPodpisIsp { get; set; }
+        public string ContractPodpisZak { get; set; }
+        public string ContractSposobOplati { get; set; }
+        public int? ContractValutaCheck { get; set; }
+        public string ContractValutaText { get; set; }
+        public int? ContractTripCheck { get; set; }
+        public int? ContractAdvanceStatCheck { get; set; }
+        public string ContractCountry { get; set; }
+        public string ContractNerezEmail { get; set; }
+        public int? ContractNonresidentCheck { get; set; }
+        public string ContractNonresidentCountry { get; set; }
+        public int? ContractUrgencyCheck { get; set; }
+        public int? ContractIncluding { get; set; }
+        public double? ContractNdsSumm { get; set; }
+        public double? ContractSummPlusNds { get; set; }
+        public int? ContractTechPodYear { get; set; }
+        public int? ContractNewYearPriceCheck { get; set; }
+        public int? ContractSupplementaryAggrCheck { get; set; }
+        public int? ContractKpLinkId { get; set; }
+        public DateTime? ContractDateConclusion { get; set; }
+        public DateTime? ContractWorkdoneDate { get; set; }
+        public string ContractIspolnitKp { get; set; }
+        public string ContractNewYearPriceValue { get; set; }
+        public int? ContractGovContrCheck { get; set; }
+        public string ContractKpNumberText { get; set; }
+        public string ContractIshDate1KpText { get; set; }
+        public string ContractIshDate2KpText { get; set; }
+        public string ContractConsumption { get; set; }
+        public int ContractNewUserCheck { get; set; }
+        public int? ContractYesProtocol { get; set; }
+        public int? ContractYesSupplementaryAggr { get; set; }
+    }
+}
